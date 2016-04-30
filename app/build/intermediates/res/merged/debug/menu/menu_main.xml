@@ -1,0 +1,64 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aircon.shibagenerator.MainActivity">
+
+
+    <item
+        android:id="@+id/action_news"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_fiber_new_white_36dp"
+        android:title="最新消息"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_choice_photo"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_photo_library_white_24dp"
+        android:title="選圖片"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_align"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_vertical_align_bottom_white_24dp"
+        android:title="換排版"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_color"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_invert_colors_white_24dp"
+        android:title="換顏色"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_change"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_pets_white_24dp"
+        android:title="換動物"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/action_sync"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_fiber_new_white_36dp"
+        android:title="與伺服器同步圖片"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save_album"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_fiber_new_white_36dp"
+        android:title="存到相片集"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_upload_imgur"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_fiber_new_white_36dp"
+        android:title="上傳imgur拿短網址"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_fiber_new_white_36dp"
+        android:title="分享到其他APP"
+        app:showAsAction="never" />
+</menu>

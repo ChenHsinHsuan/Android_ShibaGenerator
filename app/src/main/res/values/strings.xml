@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PTT回文圖產生器</string>
+    <string name="action_about">關於</string>
+    <string name="sync_in_background">背景同步照片中...</string>
+    <string name="upload">Upload</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="notification_fail">圖檔上傳失敗...</string>
+    <string name="notification_share_link">Share link</string>
+    <string name="notifaction_success">上傳成功</string>
+    <string name="notification_progress">上傳圖檔中...</string>
+    <string name="i_dont_know_what_you_want_to_say">我不知道你要說什麼...</string>
+    <string name="you_dont_agree_this_app_access_your_storage">您並未同意APP存取您的儲存空間</string>
+    <string name="app_cant_be_used">APP會無法正常使用功能...</string>
+    <string name="ok_i_know">好的我知道了</string>
+    <string name="connect_internet_error">網路連線異常...</string>
+    <string name="upload_url">上傳後的網址:</string>
+    <string name="already_copy">已經複製到剪貼簿，可以直接貼上使用</string>
+    <string name="what_words_do_you_want_to_share">您要透過什麼APP來分享你的圖片呢?</string>
+    <string name="the_photo_is_save_in_your_album">圖片已經在你的相簿裡囉...</string>
+    <string name="uplaoding_imgur">上傳imgur中</string>
+    <string name="please_wait">請等候...</string>
+    <string name="shiba_come_from">柴犬圖的由來源自於日本推特當時流行將動物照片配上《神臂Arms》當中一句經典台詞「你渴望力量嗎？」</string>
+    <string name="back_to_first">回到第一張圖囉～</string>
+    <string name="take_photo">立馬拍一張</string>
+    <string name="pick_photo">從相簿裡面選取</string>
+    <string name="attachToContact">圖片來源</string>
+</resources>
