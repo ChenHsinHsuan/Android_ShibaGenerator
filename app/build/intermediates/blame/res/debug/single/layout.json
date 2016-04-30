@@ -8,20 +8,20 @@
         "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/layout/ambilwarna_dialog.xml",
-        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.github.yukuku/ambilwarna/2.0.1/res/layout/ambilwarna_dialog.xml"
+        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/layout/ambilwarna_dialog.xml",
+        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.github.yukuku/ambilwarna/2.0.1/res/layout/ambilwarna_dialog.xml"
     },
     {
         "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",

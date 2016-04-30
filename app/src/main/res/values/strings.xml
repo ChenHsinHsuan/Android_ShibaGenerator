@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PTT回文圖產生器</string>
+    <string name="app_name">回文圖產生器</string>
     <string name="action_about">關於</string>
     <string name="sync_in_background">背景同步照片中...</string>
     <string name="upload">Upload</string>
@@ -15,7 +15,7 @@
     <string name="ok_i_know">好的我知道了</string>
     <string name="connect_internet_error">網路連線異常...</string>
     <string name="upload_url">上傳後的網址:</string>
-    <string name="already_copy">已經複製到剪貼簿，可以直接貼上使用</string>
+    <string name="already_copy">已複製到剪貼簿，可以直接貼上使用</string>
     <string name="what_words_do_you_want_to_share">您要透過什麼APP來分享你的圖片呢?</string>
     <string name="the_photo_is_save_in_your_album">圖片已經在你的相簿裡囉...</string>
     <string name="uplaoding_imgur">上傳imgur中</string>

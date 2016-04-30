@@ -38,8 +38,8 @@ android {
         applicationId "com.aircon.shibagenerator"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 10
-        versionName "10"
+        versionCode 11
+        versionName "HaveFun"
         // Enabling multidex support.
         multiDexEnabled true
     }
@@ -69,4 +69,5 @@ dependencies {
     compile 'com.dropbox.core:dropbox-core-sdk:1.8.2'
     compile 'com.github.yukuku:ambilwarna:2.0.1'
     compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'me.panavtec:drawableview:0.6.0'
 }

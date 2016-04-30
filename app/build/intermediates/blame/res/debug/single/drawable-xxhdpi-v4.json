@@ -216,12 +216,12 @@
         "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
         "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_trending_flat_white_24dp.png",
         "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/src/main/res/drawable-xxhdpi/ic_trending_flat_white_24dp.png"
+    },
+    {
+        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
@@ -480,12 +480,12 @@
         "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
-    },
-    {
         "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_message_black_24dp.png",
         "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/src/main/res/drawable-xxhdpi/ic_message_black_24dp.png"
+    },
+    {
+        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
     },
     {
         "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_play_dark.png",

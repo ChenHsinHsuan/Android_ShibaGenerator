@@ -89,6 +89,7 @@ public class SyncPhotoTask extends AsyncTask {
 
 
                 //下載
+                System.out.println(child.name+"下載中...");
                 outputStream = new FileOutputStream(theFile);
                 client.getFile(File.separator + "pics" + File.separator + child.name, null, outputStream);
                 outputStream.close();

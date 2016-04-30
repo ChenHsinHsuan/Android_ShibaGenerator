@@ -109,9 +109,6 @@ public class SyncNewsTask extends AsyncTask {
             DbxEntry theRemoteNews = client.getMetadata("/news.txt");
             File theLocalNewsFile = new File(rootStorageDir.getPath(), "news.txt");
             //如果檔案已經存在就跳過
-            System.out.println("theLocalNewsFile.exists():"+theLocalNewsFile.exists());
-            System.out.println("theLocalNewsFile.length():"+theLocalNewsFile.length());
-            System.out.println("theRemoteNews.length():"+theRemoteNews.asFile().numBytes);
             if (theLocalNewsFile.exists() && theLocalNewsFile.length() == theRemoteNews.asFile().numBytes) {
                 System.out.println(theLocalNewsFile.getName()+"未變更，跳過...");
                 isUpdate = false;

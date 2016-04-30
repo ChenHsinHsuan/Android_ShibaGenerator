@@ -21,7 +21,6 @@
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation"
-            android:label=""
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/places_ic_clear.png",
-        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-xxxhdpi/places_ic_clear.png"
-    },
-    {
         "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_share_white_24dp.png",
         "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/src/main/res/drawable-xxxhdpi/ic_share_white_24dp.png"
+    },
+    {
+        "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/places_ic_clear.png",
+        "source": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-xxxhdpi/places_ic_clear.png"
     },
     {
         "merged": "/Users/ChenHsinHsuan/CloudStation/Android/ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
