@@ -25,7 +25,8 @@
     <item
         android:id="@+id/action_color"
         android:orderInCategory="100"
-        android:icon="@drawable/ic_invert_colors_white_24dp"
+        android:icon="@drawable/ic_invert_colors_black_24dp"
+        android:iconTint="@color/primary_light"
         android:title="換顏色"
         app:showAsAction="always" />
     <item
