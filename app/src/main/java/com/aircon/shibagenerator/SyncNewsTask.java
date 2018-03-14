@@ -106,7 +106,7 @@ public class SyncNewsTask extends AsyncTask {
 
             Metadata theRemoteNews = client.files().getMetadata("/news.txt");
             File theLocalNewsFile = new File(rootStorageDir.getPath(), "news.txt");
-            
+
 
             if (theLocalNewsFile.exists() && theLocalNewsFile.length() == ((FileMetadata) theRemoteNews).getSize()) {
                 System.out.println(theLocalNewsFile.getName() + "未變更，跳過...");

@@ -19,7 +19,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.aircon.shibagenerator.MainActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -39,7 +39,7 @@
             android:value="e6eb162f29a7bd9acaea0065c912ae9fcec1f7f6" />
 
 
-        <activity android:name=".PhotoListActivity"
+        <activity android:name="com.aircon.shibagenerator.PhotoListActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:label="請選一張圖...">

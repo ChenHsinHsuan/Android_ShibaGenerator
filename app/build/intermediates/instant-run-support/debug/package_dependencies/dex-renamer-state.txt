@@ -1,7 +1,0 @@
-#Tue Mar 13 14:00:50 CST 2018
-base.0=/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/transforms/dexMerger/debug/10
-path.1=classes2.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/transforms/dexMerger/debug/10

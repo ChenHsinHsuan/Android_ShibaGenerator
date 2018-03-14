@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Mon Mar 12 17:57:58 CST 2018
-0.baseType=DIRECTORY
-0.base=/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/assets/debug
-0.path=crashlytics-build.properties
-0.set=ASSET
-count=1

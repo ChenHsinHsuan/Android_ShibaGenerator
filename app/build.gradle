@@ -31,15 +31,16 @@ repositories {
 }
 
 android {
+    signingConfigs {
+    }
     compileSdkVersion 27
     buildToolsVersion "27.0.3"
-
     defaultConfig {
         applicationId "com.aircon.shibagenerator"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 11
-        versionName "HaveFun"
+        versionCode 13
+        versionName "1.13"
         // Enabling multidex support.
         multiDexEnabled true
     }
@@ -48,16 +49,17 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        debug {
+        }
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
         transitive = true;
     }
-
     compile 'com.android.support:multidex:1.0.0'
     compile 'com.android.support:appcompat-v7:27.1.0'
     compile 'com.android.support:design:27.1.0'
