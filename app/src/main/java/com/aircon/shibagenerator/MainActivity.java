@@ -118,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
     private GoogleApiClient client;
     InterstitialAd mInterstitialAd;
     private DrawableViewConfig paintConfig;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -151,8 +152,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-
-
     }
 
 
@@ -179,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
         requestNewInterstitial();
 
         rootStorageDir = new File(Environment.getExternalStorageDirectory() + "/Android/data/" + getApplicationContext().getPackageName());
-        mediaStorageDir = new File(rootStorageDir + File.separator +"Files");
+        mediaStorageDir = new File(rootStorageDir + File.separator + "Files");
 
         if (!mediaStorageDir.exists()) {
             mediaStorageDir.mkdirs();
@@ -200,12 +199,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     private void bindEvent() {
 
         inputText.addTextChangedListener(new TextWatcher() {
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
@@ -214,7 +213,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                if (demoText.getText().length() == 0){
+                if (demoText.getText().length() == 0) {
                     demoText.setText("你想說什麼。。");
                 }
             }
@@ -228,15 +227,17 @@ public class MainActivity extends AppCompatActivity {
                 } else if (progress < 20) {
                     demoText.setTextSize(20);
                 } else {
-                   demoText.setTextSize(progress);
+                    demoText.setTextSize(progress);
                 }
             }
 
             @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {}
+            public void onStartTrackingTouch(SeekBar seekBar) {
+            }
 
             @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {}
+            public void onStopTrackingTouch(SeekBar seekBar) {
+            }
         });
 
 
@@ -322,7 +323,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //換顏色
-        if(id == R.id.action_color){
+        if (id == R.id.action_color) {
             AmbilWarnaDialog theAmbilWarnaDialog = new AmbilWarnaDialog(this, demoText.getCurrentTextColor(), new AmbilWarnaDialog.OnAmbilWarnaListener() {
                 @Override
                 public void onOk(AmbilWarnaDialog dialog, int color) {
@@ -339,9 +340,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-
         //與伺服器同步圖片
-        if(id == R.id.action_sync) {
+        if (id == R.id.action_sync) {
             Snackbar.make(shibaImage, R.string.sync_in_background, Snackbar.LENGTH_LONG).setAction("Action", null).show();
             syncPhotoTask = new SyncPhotoTask(imageLayout, mediaStorageDir);
             syncPhotoTask.execute();
@@ -349,10 +349,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         //存至相片集
-        if(id == R.id.action_save_album) {
+        if (id == R.id.action_save_album) {
             if (inputText.getText().toString().trim().length() == 0) {
                 Snackbar.make(shibaImage, R.string.i_dont_know_what_you_want_to_say, Snackbar.LENGTH_LONG).setAction("Action", null).show();
-            }else{
+            } else {
                 saveToAlbumClick = true;
                 if (mInterstitialAd.isLoaded()) {
                     mInterstitialAd.show();
@@ -366,11 +366,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         //上傳imgur拿短網址
-        if(id == R.id.action_upload_imgur) {
+        if (id == R.id.action_upload_imgur) {
             if (inputText.getText().toString().trim().length() == 0) {
                 Snackbar.make(inputText, R.string.i_dont_know_what_you_want_to_say, Snackbar.LENGTH_LONG).setAction("Action", null).show();
 
-            }else {
+            } else {
 
                 imgurClick = true;
 
@@ -384,10 +384,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         //分享到其他APP
-        if(id == R.id.action_share) {
+        if (id == R.id.action_share) {
             if (inputText.getText().toString().trim().length() == 0) {
                 Snackbar.make(shibaImage, R.string.i_dont_know_what_you_want_to_say, Snackbar.LENGTH_LONG).setAction("Action", null).show();
-            }else{
+            } else {
                 shareClick = true;
                 if (mInterstitialAd.isLoaded()) {
                     mInterstitialAd.show();
@@ -399,7 +399,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         //切煥文字排版
-        if(id == R.id.action_align){
+        if (id == R.id.action_align) {
             isVertical = !isVertical;
 
             ViewGroup.LayoutParams lp = demoText.getLayoutParams();
@@ -412,12 +412,12 @@ public class MainActivity extends AppCompatActivity {
                 demoText.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
                 inputText.setSingleLine(true);
                 inputText.setHint("點我輸入文字");
-            }else{
+            } else {
                 item.setIcon(R.drawable.ic_trending_flat_white_24dp);
 
                 lp.width = RelativeLayout.LayoutParams.MATCH_PARENT;
                 demoText.setLayoutParams(lp);
-                demoText.setGravity(Gravity.LEFT|Gravity.TOP);
+                demoText.setGravity(Gravity.LEFT | Gravity.TOP);
                 demoText.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
                 inputText.setSingleLine(false);
                 inputText.setHint("點我輸入文字\n點選(↩)︎可以排版");
@@ -425,7 +425,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        if (id == R.id.action_choice_photo){
+        if (id == R.id.action_choice_photo) {
             doPickPhotoAction();
         }
 
@@ -511,8 +511,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         switch (requestCode) {
@@ -546,13 +544,13 @@ public class MainActivity extends AppCompatActivity {
     /**
      * 取得存取授權
      */
-    private void askAccessExternalStoragePermission(){
+    private void askAccessExternalStoragePermission() {
         String[] perms = {"android.permission.WRITE_EXTERNAL_STORAGE"};
         ActivityCompat.requestPermissions(MainActivity.this, perms, Config.EXTERNAL_STORAGE_REQUESTCODE);
     }
 
 
-    private void shareToAnotherAPPs(){
+    private void shareToAnotherAPPs() {
         //分享至其他APP
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
         sharingIntent.setType("image/*");
@@ -563,7 +561,7 @@ public class MainActivity extends AppCompatActivity {
         Snackbar.make(shibaImage, R.string.the_photo_is_save_in_your_album, Snackbar.LENGTH_LONG).setAction("Action", null).show();
     }
 
-    private void uploadToImgur(){
+    private void uploadToImgur() {
         dialog = ProgressDialog.show(MainActivity.this, getResources().getString(R.string.upload_url), getResources().getString(R.string.please_wait), true);
         //上傳imgur
         Upload upload = new Upload();
@@ -575,7 +573,6 @@ public class MainActivity extends AppCompatActivity {
 
         imgurClick = false;
     }
-
 
 
     private class UiCallback implements Callback<ImageResponse> {
@@ -606,6 +603,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 自定義圖檔
+     *
      * @date 2016-04-29
      */
 
@@ -615,7 +613,7 @@ public class MainActivity extends AppCompatActivity {
         // Wrap our context to inflate list items using correct theme
         final Context dialogContext = new ContextThemeWrapper(context,
                 android.R.style.Theme_Light);
-        String cancel="返回";
+        String cancel = "返回";
         String[] choices;
         choices = new String[2];
         choices[0] = getString(R.string.take_photo);  //拍照
@@ -630,11 +628,11 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
                         switch (which) {
-                            case 0:{
-                                String status=Environment.getExternalStorageState();
-                                if(status.equals(Environment.MEDIA_MOUNTED)){//判断是否有SD卡
+                            case 0: {
+                                String status = Environment.getExternalStorageState();
+                                if (status.equals(Environment.MEDIA_MOUNTED)) {//判断是否有SD卡
                                     doTakePhoto();// 用户点击了从照相机获取
-                                }else{
+                                } else {
                                     Toast.makeText(getApplicationContext(), "没有SD卡", Toast.LENGTH_LONG).show();
                                 }
                                 break;
@@ -673,7 +671,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 拍照获取图片
-     *
      */
     protected void doTakePhoto() {
         try {
@@ -695,7 +692,6 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * 用当前时间给取得的图片命名
-     *
      */
     private String getPhotoFileName() {
         Date date = new Date(System.currentTimeMillis());
@@ -704,17 +700,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
     // 因为调用了Camera和Gally所以要判断他们各自的返回情况,他们启动时是这样的startActivityForResult
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode != RESULT_OK)
             return;
 
-        System.out.println("requestCode:"+requestCode);
+        System.out.println("requestCode:" + requestCode);
         switch (requestCode) {
 
-            case RESULT_LOAD_IMAGE:{
+            case RESULT_LOAD_IMAGE: {
                 final Bitmap photo = data.getParcelableExtra("data");
                 shibaImage.setImageBitmap(photo);
                 break;
@@ -737,14 +731,14 @@ public class MainActivity extends AppCompatActivity {
 
             case PHOTO_CROP_WITH_DATA: {
                 Uri uri = data.getData();
-                if (uri != null){
+                if (uri != null) {
                     //For Android 5.x
                     Bitmap myImg = BitmapFactory.decodeFile(uri.getPath());
                     shibaImage.setImageBitmap(myImg);
-                }else{
+                } else {
                     //For Android 6.x
                     final Bitmap photo = data.getParcelableExtra("data");
-                    System.out.println("photo:"+photo.getByteCount());
+                    System.out.println("photo:" + photo.getByteCount());
                     shibaImage.setImageBitmap(photo);
                 }
 
@@ -761,7 +755,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    protected void doCropPhoto(Uri photoUri){
+    protected void doCropPhoto(Uri photoUri) {
         try {
             Intent intent = new Intent("com.android.camera.action.CROP");
             intent.setDataAndType(photoUri, "image/*");
@@ -773,8 +767,8 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("scale", true);
             intent.putExtra("return-data", true);
             startActivityForResult(intent, PHOTO_CROP_WITH_DATA);
-        }catch (ActivityNotFoundException anfe) {
-                // display an error message
+        } catch (ActivityNotFoundException anfe) {
+            // display an error message
             String errorMessage = "your device doesn't support the crop action!";
             Toast toast = Toast.makeText(this, errorMessage, Toast.LENGTH_SHORT);
             toast.show();
@@ -783,7 +777,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Photo pick not found...", Toast.LENGTH_LONG).show();
         }
     }
-
 
 
 }

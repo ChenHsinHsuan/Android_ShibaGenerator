@@ -7,16 +7,16 @@ import android.os.Build;
 import android.support.design.widget.Snackbar;
 import android.view.View;
 
-import com.dropbox.core.DbxClient;
-import com.dropbox.core.DbxEntry;
 import com.dropbox.core.DbxRequestConfig;
+import com.dropbox.core.v2.DbxClientV2;
+import com.dropbox.core.v2.files.FileMetadata;
+import com.dropbox.core.v2.files.Metadata;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStreamReader;
-import java.util.Locale;
 
 /**
  * 最新消息同步作業
@@ -27,6 +27,7 @@ public class SyncNewsTask extends AsyncTask {
     View view;
     File rootStorageDir;
     boolean isUpdate = false;
+
     public SyncNewsTask(View v, File iRootStorageDir, Context iContext) {
         mContext = iContext;
         rootStorageDir = iRootStorageDir;
@@ -97,31 +98,29 @@ public class SyncNewsTask extends AsyncTask {
     protected Object doInBackground(Object[] params) {
         // 再背景中處理的耗時工作
 
-
-        DbxRequestConfig config = new DbxRequestConfig("JavaTutorial/1.0", Locale.getDefault().toString());
+        DbxRequestConfig config = new DbxRequestConfig("sync_news_task");
 
         try {
 
-            DbxClient client = new DbxClient(config, Config.DROPBOX_APP_ACCESS_TOKEN);
+            DbxClientV2 client = new DbxClientV2(config, Config.DROPBOX_APP_ACCESS_TOKEN);
 
-
-
-            DbxEntry theRemoteNews = client.getMetadata("/news.txt");
+            Metadata theRemoteNews = client.files().getMetadata("/news.txt");
             File theLocalNewsFile = new File(rootStorageDir.getPath(), "news.txt");
-            //如果檔案已經存在就跳過
-            if (theLocalNewsFile.exists() && theLocalNewsFile.length() == theRemoteNews.asFile().numBytes) {
-                System.out.println(theLocalNewsFile.getName()+"未變更，跳過...");
+            
+
+            if (theLocalNewsFile.exists() && theLocalNewsFile.length() == ((FileMetadata) theRemoteNews).getSize()) {
+                System.out.println(theLocalNewsFile.getName() + "未變更，跳過...");
                 isUpdate = false;
-            }else {
+            } else {
                 System.out.println("News have updated...");
                 FileOutputStream outputStream = new FileOutputStream(theLocalNewsFile);
-                client.getFile(File.separator + "news.txt", null, outputStream);
-                outputStream.close();
-                isUpdate = true;
+                try {
+                    FileMetadata download_metadata = client.files().downloadBuilder(theRemoteNews.getPathLower()).download(outputStream);
+                    isUpdate = true;
+                } finally {
+                    outputStream.close();
+                }
             }
-
-
-
 
         } catch (Exception e) {
             e.printStackTrace();
