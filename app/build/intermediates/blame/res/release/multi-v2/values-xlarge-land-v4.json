@@ -4,7 +4,7 @@
             "outputFile": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
             "map": [
                 {
-                    "source": "/Users/aircon/.gradle/caches/transforms-1/files-1.1/ambilwarna-2.0.1.aar/536cd8cbca81089fe171904ad82a3594/res/values-xlarge-land/values-xlarge-land.xml",
+                    "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/87178c6c6579621b5b7040abf7020c87/res/values-xlarge-land/values-xlarge-land.xml",
                     "from": {
                         "startLines": "4,5",
                         "startColumns": "4,4",

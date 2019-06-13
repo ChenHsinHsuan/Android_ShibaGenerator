@@ -1,2 +1,2 @@
-# Referenced at /Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:24
+# Referenced at /Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:20
 -keep class android.support.multidex.MultiDexApplication { <init>(); }

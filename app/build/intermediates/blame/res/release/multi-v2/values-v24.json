@@ -4,7 +4,7 @@
             "outputFile": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/aircon/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/a72f5d5ec1e8a5a36f85a5655ab3321e/res/values-v24/values-v24.xml",
+                    "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/8c83339ff7feb4e6171efb2aa6299fa4/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aircon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/456dd8aad02b44919b0b7532b4c2a054/res/values-v24/values-v24.xml",
+                    "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

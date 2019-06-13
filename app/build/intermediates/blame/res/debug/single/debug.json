@@ -60,12 +60,12 @@
         "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
         "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
@@ -240,12 +240,12 @@
         "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/7d6bee7935e94a789835f9fbf22c309d/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
-        "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/7d6bee7935e94a789835f9fbf22c309d/res/drawable-mdpi-v4/design_ic_visibility.png"
-    },
-    {
         "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/7d6bee7935e94a789835f9fbf22c309d/res/drawable-mdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -360,12 +360,12 @@
         "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -588,12 +588,12 @@
         "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/87178c6c6579621b5b7040abf7020c87/res/drawable/ambilwarna_alphacheckered_tiled.xml"
     },
     {
-        "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
         "source": "/Users/aircon/Develop/Android_ShibaGenerator/app/src/main/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",

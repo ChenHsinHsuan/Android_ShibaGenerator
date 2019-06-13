@@ -39,8 +39,8 @@ android {
         applicationId "com.aircon.shibagenerator"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 13
-        versionName "1.13"
+        versionCode 15
+        versionName "1.15"
         // Enabling multidex support.
         multiDexEnabled true
     }
