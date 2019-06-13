@@ -34,11 +34,11 @@ android {
     signingConfigs {
     }
     compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.aircon.shibagenerator"
         minSdkVersion 15
-        targetSdkVersion 23
+        targetSdkVersion 26
         versionCode 13
         versionName "1.13"
         // Enabling multidex support.
@@ -55,21 +55,21 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
         transitive = true;
     }
-    compile 'com.android.support:multidex:1.0.0'
-    compile 'com.android.support:appcompat-v7:27.1.0'
-    compile 'com.android.support:design:27.1.0'
-    compile 'com.squareup.retrofit:retrofit:1.9.0'
-    compile 'com.google.android.gms:play-services:8.4.0'
-    compile 'com.google.android.gms:play-services-ads:8.4.0'
-    compile 'com.google.android.gms:play-services-identity:8.4.0'
-    compile 'com.google.android.gms:play-services-gcm:8.4.0'
-    compile 'com.dropbox.core:dropbox-core-sdk:3.0.6'
-    compile 'com.github.yukuku:ambilwarna:2.0.1'
-    compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'me.panavtec:drawableview:0.6.0'
+    implementation 'com.android.support:multidex:1.0.0'
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:design:27.1.0'
+    implementation 'com.squareup.retrofit:retrofit:1.9.0'
+    implementation 'com.google.android.gms:play-services-base:16.0.1'
+    implementation 'com.google.android.gms:play-services-ads:17.2.0'
+    implementation 'com.google.android.gms:play-services-identity:16.0.0'
+    implementation 'com.google.android.gms:play-services-gcm:16.1.0'
+    implementation 'com.dropbox.core:dropbox-core-sdk:3.0.6'
+    implementation 'com.github.yukuku:ambilwarna:2.0.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'me.panavtec:drawableview:0.6.0'
 }

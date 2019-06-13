@@ -21,6 +21,7 @@ import android.provider.MediaStore;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.view.ContextThemeWrapper;
 import android.support.v7.widget.Toolbar;
@@ -49,7 +50,9 @@ import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.appindexing.AppIndex;
+//import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.ads.doubleclick.PublisherAdRequest;
+import com.google.android.gms.ads.doubleclick.PublisherInterstitialAd;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.io.BufferedReader;
@@ -71,15 +74,17 @@ import retrofit.RetrofitError;
 import retrofit.client.Response;
 import yuku.ambilwarna.AmbilWarnaDialog;
 
+import com.google.android.gms.ads.MobileAds;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = "MainActivity";
     private ImageView shibaImage;
     private EditText inputText;
     private TextView demoText;
     private SeekBar seekBar;
     private Toolbar toolbar;
-    private AdRequest adRequest;
+    private PublisherAdRequest adRequest;
     private RelativeLayout imageLayout;
     private ProgressDialog dialog;
     private DrawableView paintView;
@@ -116,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
-    InterstitialAd mInterstitialAd;
+    PublisherInterstitialAd mPublisherInterstitialAd;
     private DrawableViewConfig paintConfig;
 
     @Override
@@ -128,6 +133,7 @@ public class MainActivity extends AppCompatActivity {
         findView();
         prepareVariable();
         bindEvent();
+
 
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP_MR1) {
             if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
@@ -169,12 +175,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void prepareVariable() {
 
+        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
+        MobileAds.initialize(this, "ca-app-pub-5200673733349176~3633829241");
+
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+//        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(Config.ADUNIT_ID);
+        mPublisherInterstitialAd = new PublisherInterstitialAd(this);
+        mPublisherInterstitialAd.setAdUnitId(Config.ADUNIT_ID);
         requestNewInterstitial();
 
         rootStorageDir = new File(Environment.getExternalStorageDirectory() + "/Android/data/" + getApplicationContext().getPackageName());
@@ -186,16 +195,6 @@ public class MainActivity extends AppCompatActivity {
 
         myAlbumFiles = mediaStorageDir.listFiles();
 
-
-//        paintConfig = new DrawableViewConfig();
-//        paintConfig.setStrokeColor(ContextCompat.getColor(this, android.R.color.black));
-//        paintConfig.setShowCanvasBounds(true);
-//        paintConfig.setStrokeWidth(20.0f);
-//        paintConfig.setMinZoom(1.0f);
-//        paintConfig.setMaxZoom(3.0f);
-//        paintConfig.setCanvasHeight(imageLayout.getHeight());
-//        paintConfig.setCanvasWidth(imageLayout.getWidth());
-//        paintView.setConfig(paintConfig);
     }
 
 
@@ -241,7 +240,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        mInterstitialAd.setAdListener(new AdListener() {
+        mPublisherInterstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdClosed() {
                 if (shareClick) {
@@ -354,8 +353,8 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(shibaImage, R.string.i_dont_know_what_you_want_to_say, Snackbar.LENGTH_LONG).setAction("Action", null).show();
             } else {
                 saveToAlbumClick = true;
-                if (mInterstitialAd.isLoaded()) {
-                    mInterstitialAd.show();
+                if (mPublisherInterstitialAd.isLoaded()) {
+                    mPublisherInterstitialAd.show();
                 } else {
                     genPhotoFile();
                     saveToAlbumClick = false;
@@ -374,8 +373,8 @@ public class MainActivity extends AppCompatActivity {
 
                 imgurClick = true;
 
-                if (mInterstitialAd.isLoaded()) {
-                    mInterstitialAd.show();
+                if (mPublisherInterstitialAd.isLoaded()) {
+                    mPublisherInterstitialAd.show();
                 } else {
                     uploadToImgur();
                 }
@@ -389,8 +388,8 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(shibaImage, R.string.i_dont_know_what_you_want_to_say, Snackbar.LENGTH_LONG).setAction("Action", null).show();
             } else {
                 shareClick = true;
-                if (mInterstitialAd.isLoaded()) {
-                    mInterstitialAd.show();
+                if (mPublisherInterstitialAd.isLoaded()) {
+                    mPublisherInterstitialAd.show();
                 } else {
                     shareToAnotherAPPs();
                 }
@@ -443,8 +442,8 @@ public class MainActivity extends AppCompatActivity {
 
     //admob handle
     private void requestNewInterstitial() {
-        adRequest = new AdRequest.Builder().addTestDevice("D743BC1D31994BE696058A955990EE44").build();
-        mInterstitialAd.loadAd(adRequest);
+        adRequest = new PublisherAdRequest.Builder().build();
+        mPublisherInterstitialAd.loadAd(adRequest);
     }
 
 
@@ -554,7 +553,8 @@ public class MainActivity extends AppCompatActivity {
         //分享至其他APP
         Intent sharingIntent = new Intent(Intent.ACTION_SEND);
         sharingIntent.setType("image/*");
-        Uri uri = Uri.fromFile(genPhotoFile());
+        File imageFile = genPhotoFile();
+        Uri uri = FileProvider.getUriForFile(MainActivity.this, BuildConfig.APPLICATION_ID + ".fileprovider", imageFile);
         sharingIntent.putExtra(Intent.EXTRA_STREAM, uri);
         startActivity(Intent.createChooser(sharingIntent, getResources().getString(R.string.what_words_do_you_want_to_share)));
         shareClick = false;
@@ -615,9 +615,9 @@ public class MainActivity extends AppCompatActivity {
                 android.R.style.Theme_Light);
         String cancel = "返回";
         String[] choices;
-        choices = new String[2];
-        choices[0] = getString(R.string.take_photo);  //拍照
-        choices[1] = getString(R.string.pick_photo);  //从相册中选择
+        choices = new String[1];
+//        choices[0] = getString(R.string.take_photo);  //拍照
+        choices[0] = getString(R.string.pick_photo);  //从相册中选择
         final ListAdapter adapter = new ArrayAdapter<String>(dialogContext, android.R.layout.simple_list_item_1, choices);
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -628,17 +628,17 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
                         switch (which) {
-                            case 0: {
-                                String status = Environment.getExternalStorageState();
-                                if (status.equals(Environment.MEDIA_MOUNTED)) {//判断是否有SD卡
-                                    doTakePhoto();// 用户点击了从照相机获取
-                                } else {
-                                    Toast.makeText(getApplicationContext(), "没有SD卡", Toast.LENGTH_LONG).show();
-                                }
-                                break;
-
-                            }
-                            case 1:
+//                            case 0: {
+//                                String status = Environment.getExternalStorageState();
+//                                if (status.equals(Environment.MEDIA_MOUNTED)) {//判断是否有SD卡
+//                                    doTakePhoto();// 用户点击了从照相机获取
+//                                } else {
+//                                    Toast.makeText(getApplicationContext(), "没有SD卡", Toast.LENGTH_LONG).show();
+//                                }
+//                                break;
+//
+//                            }
+                            case 0:
                                 doPickPhotoFromGallery();// 从相册中去获取
                                 break;
                         }
@@ -663,7 +663,8 @@ public class MainActivity extends AppCompatActivity {
             final Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
             intent.setType("image/*");
             startActivityForResult(intent, PHOTO_PICKED_WITH_DATA);
-        } catch (ActivityNotFoundException e) {
+        } catch (Exception e) {
+            System.out.println("error: " + e.getMessage());
             Toast.makeText(this, "Photo Picker Not Found...", Toast.LENGTH_LONG).show();
         }
     }
@@ -679,12 +680,16 @@ public class MainActivity extends AppCompatActivity {
             mCurrentPhotoFile = new File(PHOTO_DIR, getPhotoFileName());// 给新照的照片文件命名
 
             Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE, null);
-            intent.putExtra("aspectX", 3);
-            intent.putExtra("aspectY", 4);
-            intent.putExtra("scale", true);
-            intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(mCurrentPhotoFile));
-            startActivityForResult(intent, CAMERA_WITH_DATA);
-        } catch (ActivityNotFoundException e) {
+            if (intent.resolveActivity(getPackageManager()) != null) {
+                intent.putExtra("aspectX", 3);
+                intent.putExtra("aspectY", 4);
+                intent.putExtra("scale", true);
+                Uri uri = FileProvider.getUriForFile(MainActivity.this, BuildConfig.APPLICATION_ID + ".fileprovider", mCurrentPhotoFile);
+                intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+                startActivityForResult(intent, CAMERA_WITH_DATA);
+            }
+        } catch (Exception e) {
+            System.out.println("error: " + e.getMessage());
             Toast.makeText(this, "Photo Picker Not Found...",
                     Toast.LENGTH_LONG).show();
         }
@@ -702,10 +707,14 @@ public class MainActivity extends AppCompatActivity {
 
     // 因为调用了Camera和Gally所以要判断他们各自的返回情况,他们启动时是这样的startActivityForResult
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (resultCode != RESULT_OK)
-            return;
 
-        System.out.println("requestCode:" + requestCode);
+        if (resultCode != RESULT_OK) {
+            Log.d(TAG, "onActivityResult not OK....");
+            return;
+        }
+
+
+        Log.d(TAG, "onActivityResult RequestCode:" + requestCode);
         switch (requestCode) {
 
             case RESULT_LOAD_IMAGE: {
@@ -724,12 +733,14 @@ public class MainActivity extends AppCompatActivity {
 
             // 照相机程序返回的,再次调用图片剪辑程序去修剪图片
             case CAMERA_WITH_DATA: {
+//                Uri photoUri = FileProvider.getUriForFile(MainActivity.this, BuildConfig.APPLICATION_ID+".fileprovider", mCurrentPhotoFile);
                 Uri photoUri = Uri.fromFile(mCurrentPhotoFile);
                 doCropPhoto(photoUri);
                 break;
             }
 
             case PHOTO_CROP_WITH_DATA: {
+                Log.d(TAG, "Crop function excuted...");
                 Uri uri = data.getData();
                 if (uri != null) {
                     //For Android 5.x
@@ -757,6 +768,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void doCropPhoto(Uri photoUri) {
         try {
+            Log.d(TAG, "Start to crop photo...");
             Intent intent = new Intent("com.android.camera.action.CROP");
             intent.setDataAndType(photoUri, "image/*");
             intent.putExtra("crop", "true");
@@ -766,6 +778,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("outputY", 800);
             intent.putExtra("scale", true);
             intent.putExtra("return-data", true);
+            Log.d(TAG, "End to crop photo...");
             startActivityForResult(intent, PHOTO_CROP_WITH_DATA);
         } catch (ActivityNotFoundException anfe) {
             // display an error message
