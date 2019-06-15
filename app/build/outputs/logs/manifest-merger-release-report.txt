@@ -1,0 +1,358 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:1-64:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c46fc569a05e247395d824f99d0a4d3a/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9eaaec5ab3403608729f54f27230fa8c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/7d6bee7935e94a789835f9fbf22c309d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/a6d7bd44e9ad77c42075909c42e72139/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3492f80b6207b169d693540ab2fc6e7d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6ca97116e9961f3c527479c0177d530/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-ads:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/53d654e78cf50b2c546c04f66a540db1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.github.yukuku:ambilwarna:2.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/87178c6c6579621b5b7040abf7020c87/AndroidManifest.xml:2:1-12:12
+MERGED from [me.panavtec:drawableview:0.6.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/01cd6b71031f734111c2585789b7e661/AndroidManifest.xml:2:1-14:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/aircon/.gradle/caches/transforms-2/files-2.1/749ae8b8c535499f90d68b77416aa6c7/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b70596c7030430afeb83991a8156671a/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/aircon/.gradle/caches/transforms-2/files-2.1/370959a6f37084c97bf3f1cf80b65176/AndroidManifest.xml:18:1-29:12
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6134d1e5cf027bdc93fc798b0ad4fbd/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/131594dac74efd1a81c4032e6351dcbb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/1817933cee75f4f7166f810601de5504/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-gass:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c226016c83920367e521537bded1d2e0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b21e8eaced58fb981d9e4c27bf644ba6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9701f9d9d4eb291654fc8a2bb56c3a4d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ddacada002c2f5a7efe75d97c6181062/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c17ac86512fc936e9d1a18cec4eaf5ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/1728cf49e0007e282109ea0dae6a06a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e02176e49396bda682dd6c7af2d529a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/92a7ed1a7d9cc3cc56aebd63a9dc3f25/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/36cbb3241fb3e1b43a292d122c80808d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b54d9b6dae68ab5da33409a88f59e56b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/42ba86bb5d9f262f37b7c42bd8b5beeb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/064c3878db8dff0f68d430592c8c60e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/0c6928ed5b3b45bb2ce7b4ee82771540/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/8c83339ff7feb4e6171efb2aa6299fa4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9bc0a5ceefec8e097c26031fe466395f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9a9b3af03ac31103036f248ab29e94ba/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/228260aafe57adaf02cb63b3eee51da8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/395b13991293fb3c8b35804a59fb0684/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/dfa1a81343015e39d32c3c088b32bf9c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/4258014879c50ad94712d6559970620f/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:1-64:12
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:1-64:12
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c46fc569a05e247395d824f99d0a4d3a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c46fc569a05e247395d824f99d0a4d3a/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3492f80b6207b169d693540ab2fc6e7d/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3492f80b6207b169d693540ab2fc6e7d/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6ca97116e9961f3c527479c0177d530/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6ca97116e9961f3c527479c0177d530/AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/aircon/.gradle/caches/transforms-2/files-2.1/749ae8b8c535499f90d68b77416aa6c7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/aircon/.gradle/caches/transforms-2/files-2.1/749ae8b8c535499f90d68b77416aa6c7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b70596c7030430afeb83991a8156671a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b70596c7030430afeb83991a8156671a/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/aircon/.gradle/caches/transforms-2/files-2.1/370959a6f37084c97bf3f1cf80b65176/AndroidManifest.xml:25:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/aircon/.gradle/caches/transforms-2/files-2.1/370959a6f37084c97bf3f1cf80b65176/AndroidManifest.xml:25:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6134d1e5cf027bdc93fc798b0ad4fbd/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6134d1e5cf027bdc93fc798b0ad4fbd/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:12:5-62:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c46fc569a05e247395d824f99d0a4d3a/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c46fc569a05e247395d824f99d0a4d3a/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/a6d7bd44e9ad77c42075909c42e72139/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/a6d7bd44e9ad77c42075909c42e72139/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3492f80b6207b169d693540ab2fc6e7d/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3492f80b6207b169d693540ab2fc6e7d/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6ca97116e9961f3c527479c0177d530/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6ca97116e9961f3c527479c0177d530/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/AndroidManifest.xml:22:5-27:19
+MERGED from [me.panavtec:drawableview:0.6.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/01cd6b71031f734111c2585789b7e661/AndroidManifest.xml:12:5-20
+MERGED from [me.panavtec:drawableview:0.6.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/01cd6b71031f734111c2585789b7e661/AndroidManifest.xml:12:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/aircon/.gradle/caches/transforms-2/files-2.1/749ae8b8c535499f90d68b77416aa6c7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/aircon/.gradle/caches/transforms-2/files-2.1/749ae8b8c535499f90d68b77416aa6c7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b70596c7030430afeb83991a8156671a/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b70596c7030430afeb83991a8156671a/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/aircon/.gradle/caches/transforms-2/files-2.1/370959a6f37084c97bf3f1cf80b65176/AndroidManifest.xml:27:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/aircon/.gradle/caches/transforms-2/files-2.1/370959a6f37084c97bf3f1cf80b65176/AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6134d1e5cf027bdc93fc798b0ad4fbd/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6134d1e5cf027bdc93fc798b0ad4fbd/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/131594dac74efd1a81c4032e6351dcbb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/131594dac74efd1a81c4032e6351dcbb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/1817933cee75f4f7166f810601de5504/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/1817933cee75f4f7166f810601de5504/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-gass:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c226016c83920367e521537bded1d2e0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c226016c83920367e521537bded1d2e0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b21e8eaced58fb981d9e4c27bf644ba6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b21e8eaced58fb981d9e4c27bf644ba6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9701f9d9d4eb291654fc8a2bb56c3a4d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9701f9d9d4eb291654fc8a2bb56c3a4d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ddacada002c2f5a7efe75d97c6181062/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ddacada002c2f5a7efe75d97c6181062/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/0c6928ed5b3b45bb2ce7b4ee82771540/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/0c6928ed5b3b45bb2ce7b4ee82771540/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-base:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9a9b3af03ac31103036f248ab29e94ba/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9a9b3af03ac31103036f248ab29e94ba/AndroidManifest.xml:7:5-20
+	android:supportsRtl
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:13:9-68
+meta-data#com.google.android.gms.ads.AD_MANAGER_APP
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:19:9-21:35
+	android:value
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:21:13-33
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:20:13-69
+activity#com.aircon.shibagenerator.MainActivity
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:23:9-32:20
+	android:screenOrientation
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:26:13-49
+	android:configChanges
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:25:13-48
+	android:theme
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:24:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:30:27-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:34:9-37:64
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:36:13-122
+	android:theme
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:37:13-61
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:35:13-65
+meta-data#io.fabric.ApiKey
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:39:9-41:72
+	android:value
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:40:13-44
+activity#com.aircon.shibagenerator.PhotoListActivity
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:44:9-49:20
+	android:screenOrientation
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:46:13-49
+	android:label
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:47:13-37
+	android:configChanges
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:45:13-48
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:44:19-77
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:52:9-60:20
+	android:grantUriPermissions
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:56:13-47
+	android:authorities
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:54:13-73
+	android:exported
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:53:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:57:13-59:58
+	android:resource
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:59:17-55
+	android:name
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml:58:17-67
+uses-sdk
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c46fc569a05e247395d824f99d0a4d3a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c46fc569a05e247395d824f99d0a4d3a/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9eaaec5ab3403608729f54f27230fa8c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9eaaec5ab3403608729f54f27230fa8c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/7d6bee7935e94a789835f9fbf22c309d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/7d6bee7935e94a789835f9fbf22c309d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/a6d7bd44e9ad77c42075909c42e72139/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/a6d7bd44e9ad77c42075909c42e72139/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3492f80b6207b169d693540ab2fc6e7d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3492f80b6207b169d693540ab2fc6e7d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6ca97116e9961f3c527479c0177d530/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6ca97116e9961f3c527479c0177d530/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/53d654e78cf50b2c546c04f66a540db1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/53d654e78cf50b2c546c04f66a540db1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.github.yukuku:ambilwarna:2.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/87178c6c6579621b5b7040abf7020c87/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.yukuku:ambilwarna:2.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/87178c6c6579621b5b7040abf7020c87/AndroidManifest.xml:8:5-10:41
+MERGED from [me.panavtec:drawableview:0.6.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/01cd6b71031f734111c2585789b7e661/AndroidManifest.xml:8:5-10:41
+MERGED from [me.panavtec:drawableview:0.6.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/01cd6b71031f734111c2585789b7e661/AndroidManifest.xml:8:5-10:41
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/aircon/.gradle/caches/transforms-2/files-2.1/749ae8b8c535499f90d68b77416aa6c7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /Users/aircon/.gradle/caches/transforms-2/files-2.1/749ae8b8c535499f90d68b77416aa6c7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b70596c7030430afeb83991a8156671a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b70596c7030430afeb83991a8156671a/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/aircon/.gradle/caches/transforms-2/files-2.1/370959a6f37084c97bf3f1cf80b65176/AndroidManifest.xml:23:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /Users/aircon/.gradle/caches/transforms-2/files-2.1/370959a6f37084c97bf3f1cf80b65176/AndroidManifest.xml:23:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6134d1e5cf027bdc93fc798b0ad4fbd/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6134d1e5cf027bdc93fc798b0ad4fbd/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/131594dac74efd1a81c4032e6351dcbb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/131594dac74efd1a81c4032e6351dcbb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/1817933cee75f4f7166f810601de5504/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/1817933cee75f4f7166f810601de5504/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c226016c83920367e521537bded1d2e0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c226016c83920367e521537bded1d2e0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b21e8eaced58fb981d9e4c27bf644ba6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b21e8eaced58fb981d9e4c27bf644ba6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9701f9d9d4eb291654fc8a2bb56c3a4d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9701f9d9d4eb291654fc8a2bb56c3a4d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ddacada002c2f5a7efe75d97c6181062/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ddacada002c2f5a7efe75d97c6181062/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c17ac86512fc936e9d1a18cec4eaf5ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/c17ac86512fc936e9d1a18cec4eaf5ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/1728cf49e0007e282109ea0dae6a06a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/1728cf49e0007e282109ea0dae6a06a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e02176e49396bda682dd6c7af2d529a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e02176e49396bda682dd6c7af2d529a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/92a7ed1a7d9cc3cc56aebd63a9dc3f25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/92a7ed1a7d9cc3cc56aebd63a9dc3f25/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/36cbb3241fb3e1b43a292d122c80808d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/36cbb3241fb3e1b43a292d122c80808d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b54d9b6dae68ab5da33409a88f59e56b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/b54d9b6dae68ab5da33409a88f59e56b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/42ba86bb5d9f262f37b7c42bd8b5beeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/42ba86bb5d9f262f37b7c42bd8b5beeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/064c3878db8dff0f68d430592c8c60e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/064c3878db8dff0f68d430592c8c60e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/0c6928ed5b3b45bb2ce7b4ee82771540/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/0c6928ed5b3b45bb2ce7b4ee82771540/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/8c83339ff7feb4e6171efb2aa6299fa4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/8c83339ff7feb4e6171efb2aa6299fa4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9bc0a5ceefec8e097c26031fe466395f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9bc0a5ceefec8e097c26031fe466395f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9a9b3af03ac31103036f248ab29e94ba/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/9a9b3af03ac31103036f248ab29e94ba/AndroidManifest.xml:5:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/228260aafe57adaf02cb63b3eee51da8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/228260aafe57adaf02cb63b3eee51da8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/395b13991293fb3c8b35804a59fb0684/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/395b13991293fb3c8b35804a59fb0684/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/dfa1a81343015e39d32c3c088b32bf9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/dfa1a81343015e39d32c3c088b32bf9c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/4258014879c50ad94712d6559970620f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/4258014879c50ad94712d6559970620f/AndroidManifest.xml:20:5-44
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/53d654e78cf50b2c546c04f66a540db1/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aircon/Develop/Android_ShibaGenerator/app/src/main/AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3492f80b6207b169d693540ab2fc6e7d/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6ca97116e9961f3c527479c0177d530/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e6ca97116e9961f3c527479c0177d530/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/3492f80b6207b169d693540ab2fc6e7d/AndroidManifest.xml:23:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/31ee6cb3e9e54de06f51badfccf6de56/AndroidManifest.xml:24:13-79
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:17.2.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/e0053556fa63271e819becccde91f6ba/AndroidManifest.xml:36:13-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:16.3.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ce7cf2c66c6575c9ddbef63d974c4799/AndroidManifest.xml:25:22-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ddacada002c2f5a7efe75d97c6181062/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ddacada002c2f5a7efe75d97c6181062/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aircon/.gradle/caches/transforms-2/files-2.1/ddacada002c2f5a7efe75d97c6181062/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:customtabs:26.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/0c6928ed5b3b45bb2ce7b4ee82771540/AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/0c6928ed5b3b45bb2ce7b4ee82771540/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/aircon/.gradle/caches/transforms-2/files-2.1/0c6928ed5b3b45bb2ce7b4ee82771540/AndroidManifest.xml:24:13-51

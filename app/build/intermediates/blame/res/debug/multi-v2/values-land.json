@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/7d6bee7935e94a789835f9fbf22c309d/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "433",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "610"
+                    }
+                },
+                {
+                    "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/87178c6c6579621b5b7040abf7020c87/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "166,219",
+                        "endColumns": "52,51",
+                        "endOffsets": "214,266"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "328,381",
+                        "endColumns": "52,51",
+                        "endOffsets": "376,428"
+                    }
+                },
+                {
+                    "source": "/Users/aircon/.gradle/caches/transforms-2/files-2.1/3a3edeb80d2c3f65cd6b53c710306ba9/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}

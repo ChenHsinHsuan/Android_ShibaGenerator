@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Thu Jun 13 18:04:23 CST 2019
+1.base=/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/dex/release/mergeDexRelease/out
+2.path=crashlytics-build.properties
+0.baseType=DIRECTORY
+2.base=/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/merged_assets/release/out
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/Users/aircon/Develop/Android_ShibaGenerator/app/build/intermediates/dex/release/mergeDexRelease/out
+2.baseType=DIRECTORY
+1.path=classes2.dex
